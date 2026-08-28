@@ -219,6 +219,10 @@ setuid() is a process or file attribute indicating that the caller obtains the u
 Author won't respond back to your trivial optional protocl/chatter.
 > i'll just ack
 But I may acknowledge it.
+
+
+
+___explanation TBC___
 your request
 at rest
 cuz i'm the best
@@ -227,7 +231,7 @@ the stack winner
 an expert
 you a beginner
 
-[break]
+
 
 wrote my first code
 in a telnet session
@@ -398,8 +402,10 @@ you got EOF’d
 
 --- 
 kill nice hangup shutdown trap abort break exec 
----
 
+#!bash
+
+---
 i got chicks a plenty 
 you gots a vic-20 
 hip hip hooray 
@@ -409,4 +415,5 @@ with the kids
 and watch yo youtube vids 
 i apropos your dot plan 
 you still typin' 'man man'
+
 ```
