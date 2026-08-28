@@ -1,5 +1,5 @@
 ## Announcements
-`dj_dephrag` has changed the spelling of their name due to the recent discovery that there is another artist already using the name "DJ Defrag" and we don't want any confusion.
+`dj_d.phrag` has changed the spelling of their name due to the recent discovery that there is another artist already using the name "DJ Defrag" and we don't want any confusion.
 
 `uid_zer0` is not changing their name despite their being a pre-existing `uid 0` on all of your hosts; `uid_zer0` owns all of them, so there isn't any confusion.
 
