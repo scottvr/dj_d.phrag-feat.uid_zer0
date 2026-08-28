@@ -1,4 +1,4 @@
-# El User - DJ Defraag deaat. UID Zer0
+# "El User" - DJ D.phrag feat. UID Zer0
 
 This document might more accuraately be named LYRICAL_EXPLANATION.md,
 but that name doesn't sound as cool, especially from the diss track
