@@ -1,0 +1,90 @@
+# Typography sidecar for ass.py — the DURABLE home for placement, colour,
+# fonts, and motion. This file is hand-owned and read by ass.py; it is NEVER
+# regenerated, so nothing here is lost when interleave.py rewrites lyrics.yaml
+# or align.py rewrites timings.json. Content lives in lyrics.yaml; the *look*
+# lives here.
+#
+# Two blocks, both optional:
+#   styles:   override or add [V4+] Style rows (fonts / sizes / colours)
+#   effects:  a list of per-line effects, each targeting a line by
+#               match: '<exact display text>'   (whitespace/punct-insensitive
+#                                                 fallback; add `line:` if ambiguous)
+#             or by
+#               line: <0-based index into lyrics.yaml `lines:`>
+#
+# Colours accept '#RRGGBB' / '#AARRGGBB' (converted for you) or raw '&HAABBGGRR'.
+#
+# NOTE: the specific effects below are reconstructed examples/templates — the
+# originals only ever lived in a hand-edited .ass that got overwritten. Edit
+# freely; re-running the pipeline keeps them.
+
+styles:
+  # Tweak the built-ins without touching ass.py. Friendly keys (font, size,
+  # color, outline, bold, ...) map onto the ASS Style fields.
+  Lyric:
+    font: Arial
+    size: 64
+    color: '#FFFFFF'
+  GiantLetter:
+    font: Impact
+    size: 320
+    color: '#FFE500'      # amber
+  Punch:
+    font: Impact
+    size: 140
+    color: '#00FFFF'      # cyan
+  # A brand-new style is fine too — it clones Lyric, then applies your fields.
+  # Reference it from a `raw` effect via `style: Accent`.
+  Accent:
+    font: Impact
+    size: 90
+    color: '#FF3355'
+
+timings:
+  # Durable, re-gen-safe timing fixes for lines the aligner butchered. The
+  # `base` model collapsed a couple of fast passages onto a single instant; no
+  # per-word logic can recover that, so we pin start/end here (seconds). Same
+  # targeting as effects: `match:` (display text) or `line:` (index). Set only
+  # the bound you need — the other keeps its aligned value.
+  #
+  # The rap here ("...musical rollback, rewrite / Fork bomb, reuse...") had
+  # 'Fork' stretched to 3.5s while 'musical rollback' got 0.2s, so the two lines
+  # overlapped and stacked on screen. Split the shared span at 139.8s:
+  - match: 'musical rollback, rewrite'
+    end: 139.8
+  - match: 'Fork bomb, reuse'
+    start: 139.8
+  # 'XON, XOFF,' was stretched over the following line; cap it so 'in ELF or
+  # COFF,' gets its own screen time:
+  - match: 'XON, XOFF,'
+    end: 161.8
+  # NOTE: 'disable' and 'flow control' land in the same collapsed cluster and
+  # show very briefly. They weren't flagged as wrong, so they're left as-is —
+  # add entries here (start/end by ear) if you want them held longer.
+
+effects:
+  # 1) quadrant: four giant letters, one per screen quadrant (TL, TR, BL, BR),
+  #    each entering on its own word's start time. `spoken:` picks which words
+  #    of the line drive the timing; omit it to use the whole line.
+  - match: 'F-S-C-K, halt'
+    name: quadrant
+    letters: [F, S, C, K]
+    spoken: [eff, ess, see, kay]
+
+  # 2) token_punch: one word scaled-in (150% -> 100%) over the ordinary line,
+  #    centred by default. `text:` is what's drawn; `spoken:` is the sub-span
+  #    whose timing it rides.
+  - match: 'First name UID last name 0'
+    name: token_punch
+    text: UID
+    spoken: [you, eye, dee]
+
+  # 3) raw: the escape hatch. `tags:` is inserted verbatim inside an ASS
+  #    override block, so any libass tag works (\pos \c \fn \fs \t \move \fad
+  #    \clip ...). This is where the special-character placement / colour /
+  #    motion experiments belong. `pos:` is sugar for \pos.
+  - match: 'kernel panic.'
+    name: raw
+    style: Accent
+    tags: '\an5\c&H0000FF&\t(0,200,\fscx130\fscy130)\t(200,400,\fscx100\fscy100)\fad(40,80)'
+    # text: defaults to the line's display; override it to draw something else.

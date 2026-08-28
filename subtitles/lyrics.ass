@@ -1,0 +1,233 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyric,Arial,64,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,4,2,2,60,60,60,1
+Style: GiantLetter,Impact,320,&H0000E5FF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,8,4,5,0,0,0,1
+Style: Punch,Impact,140,&H00FFFF00,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,6,3,5,0,0,0,1
+Style: Accent,Impact,90,&H005533FF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,4,2,2,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.66,0:00:07.26,Lyric,,0,0,0,,D-d-d-d-d-dumb-d-d-dum-dum-dumb-dumb
+Dialogue: 0,0:00:07.26,0:00:08.10,Lyric,,0,0,0,,Dm-um-um-um-um
+Dialogue: 0,0:00:08.10,0:00:10.20,Lyric,,0,0,0,,um-um-um-um-um
+Dialogue: 0,0:00:10.55,0:00:11.20,Lyric,,0,0,0,,Dumb
+Dialogue: 0,0:00:11.20,0:00:11.30,Lyric,,0,0,0,,dum-dum
+Dialogue: 0,0:00:11.30,0:00:13.56,Lyric,,0,0,0,,First name UID last name 0
+Dialogue: 10,0:00:11.60,0:00:12.71,Punch,,0,0,0,,{\an5\pos(960,540)\fscx150\fscy150\t(0,120,\fscx100\fscy100)\fad(30,0)}UID
+Dialogue: 0,0:00:13.56,0:00:16.16,Lyric,,0,0,0,,In /etc/shadow, I'll make it clear. oh
+Dialogue: 0,0:00:16.16,0:00:18.38,Lyric,,0,0,0,,you still sudo; I just *do* though.
+Dialogue: 0,0:00:18.40,0:00:19.57,Lyric,,0,0,0,,Things I do, you ain't able.
+Dialogue: 0,0:00:19.72,0:00:20.98,Lyric,,0,0,0,,Like Windows, you unstable.
+Dialogue: 0,0:00:21.06,0:00:22.02,Lyric,,0,0,0,,enable, like Cisco -
+Dialogue: 0,0:00:22.02,0:00:23.84,Lyric,,0,0,0,,not the rapper but the router.
+Dialogue: 0,0:00:23.84,0:00:25.42,Lyric,,0,0,0,,Hit the bar, like the space, but in outer
+Dialogue: 0,0:00:25.42,0:00:27.24,Lyric,,0,0,0,,where them girlies throwing digits after me -
+Dialogue: 0,0:00:27.24,0:00:28.81,Lyric,,0,0,0,,efficient like Eratosthenes,
+Dialogue: 0,0:00:29.22,0:00:30.54,Lyric,,0,0,0,,sievin' prime and inequal.
+Dialogue: 0,0:00:30.60,0:00:31.50,Lyric,,0,0,0,,Sometimes I speak SQL.
+Dialogue: 0,0:00:31.50,0:00:32.08,Lyric,,0,0,0,,I'm unequaled
+Dialogue: 0,0:00:32.08,0:00:33.08,Lyric,,0,0,0,,L-L-M P-I-M-P
+Dialogue: 0,0:00:33.08,0:00:34.02,Lyric,,0,0,0,,I'm multilingual.
+Dialogue: 0,0:00:34.02,0:00:36.54,Lyric,,0,0,0,,Spit a `bar`? Nah, `foo`!
+Dialogue: 0,0:00:36.79,0:00:37.64,Lyric,,0,0,0,,Parallel, superscalar, and virtual
+Dialogue: 0,0:00:37.64,0:00:40.40,Lyric,,0,0,0,,NLP, Python, get it on, listen to me flow
+Dialogue: 0,0:00:40.40,0:00:41.76,Lyric,,0,0,0,,all the wisdom I bestow;
+Dialogue: 0,0:00:41.76,0:00:43.02,Lyric,,0,0,0,,maybe Bash, maybe Go.
+Dialogue: 0,0:00:43.08,0:00:43.94,Lyric,,0,0,0,,By and large I undercharge .
+Dialogue: 0,0:00:44.08,0:00:44.34,Lyric,,0,0,0,,My intellect -
+Dialogue: 0,0:00:44.34,0:00:45.71,Lyric,,0,0,0,,don't bother doublecheck,
+Dialogue: 0,0:00:45.86,0:00:46.94,Lyric,,0,0,0,,don't gotta guess or recollect.
+Dialogue: 0,0:00:47.24,0:00:49.00,Lyric,,0,0,0,,Pop a shell, `strace` in your face.
+Dialogue: 0,0:00:49.12,0:00:50.18,Lyric,,0,0,0,,Condition, I race.
+Dialogue: 0,0:00:50.20,0:00:50.62,Lyric,,0,0,0,,whoami
+Dialogue: 0,0:00:50.62,0:00:52.18,Lyric,,0,0,0,,/dev/zero, ui, uid, who?
+Dialogue: 0,0:00:52.18,0:00:52.60,Lyric,,0,0,0,,last; who; w
+Dialogue: 0,0:00:52.60,0:00:53.70,Lyric,,0,0,0,,(u)id 0
+Dialogue: 0,0:00:53.70,0:00:54.78,Lyric,,0,0,0,,process hero
+Dialogue: 0,0:00:54.78,0:00:55.38,Lyric,,0,0,0,,You knew then
+Dialogue: 0,0:00:55.38,0:00:55.92,Lyric,,0,0,0,,I'm rootin'
+Dialogue: 0,0:00:55.92,0:00:56.90,Lyric,,0,0,0,,no place like localhost
+Dialogue: 0,0:00:56.90,0:00:57.80,Lyric,,0,0,0,,loopback this track
+Dialogue: 0,0:00:57.80,0:00:58.48,Lyric,,0,0,0,,Find me back
+Dialogue: 0,0:00:58.48,0:00:59.04,Lyric,,0,0,0,,in my home
+Dialogue: 0,0:00:59.04,0:00:59.34,Lyric,,0,0,0,,dir
+Dialogue: 0,0:00:59.34,0:01:00.42,Lyric,,0,0,0,,where the hard is
+Dialogue: 0,0:01:00.42,0:01:03.98,Lyric,,0,0,0,,F-S-C-K, halt
+Dialogue: 10,0:01:00.42,0:01:01.63,GiantLetter,,0,0,0,,{\an5\pos(480,270)\fad(40,0)}F
+Dialogue: 10,0:01:00.66,0:01:01.63,GiantLetter,,0,0,0,,{\an5\pos(1440,270)\fad(40,0)}S
+Dialogue: 10,0:01:00.96,0:01:01.63,GiantLetter,,0,0,0,,{\an5\pos(480,810)\fad(40,0)}C
+Dialogue: 10,0:01:01.16,0:01:01.63,GiantLetter,,0,0,0,,{\an5\pos(1440,810)\fad(40,0)}K
+Dialogue: 0,0:01:09.98,0:01:12.86,Lyric,,0,0,0,,While I grep, you just cat
+Dialogue: 0,0:01:12.86,0:01:13.96,Lyric,,0,0,0,,Getting patched, I wrote that
+Dialogue: 0,0:01:13.96,0:01:14.28,Lyric,,0,0,0,,with at
+Dialogue: 0,0:01:14.28,0:01:14.74,Lyric,,0,0,0,,I hack,
+Dialogue: 0,0:01:14.90,0:01:15.46,Lyric,,0,0,0,,you are a hack
+Dialogue: 0,0:01:15.46,0:01:15.86,Lyric,,0,0,0,,I crack
+Dialogue: 0,0:01:15.96,0:01:16.68,Lyric,,0,0,0,,and I'll be back
+Dialogue: 0,0:01:16.68,0:01:17.02,Lyric,,0,0,0,,to smash
+Dialogue: 0,0:01:17.02,0:01:17.50,Lyric,,0,0,0,,your stack
+Dialogue: 0,0:01:17.50,0:01:18.34,Lyric,,0,0,0,,'cause you whack
+Dialogue: 0,0:01:18.34,0:01:19.62,Lyric,,0,0,0,,Nah, you buggin'
+Dialogue: 0,0:01:19.64,0:01:20.32,Lyric,,0,0,0,,debuggin' with print
+Dialogue: 0,0:01:20.32,0:01:20.78,Lyric,,0,0,0,,no lint
+Dialogue: 0,0:01:20.78,0:01:21.80,Lyric,,0,0,0,,bigint32
+Dialogue: 0,0:01:21.80,0:01:22.70,Lyric,,0,0,0,,no, 64
+Dialogue: 0,0:01:22.70,0:01:23.88,Lyric,,0,0,0,,UI? You I hack,
+Dialogue: 0,0:01:24.24,0:01:24.88,Lyric,,0,0,0,,can't even crack
+Dialogue: 0,0:01:24.88,0:01:26.22,Lyric,,0,0,0,,You just a bragger,
+Dialogue: 0,0:01:26.22,0:01:27.11,Lyric,,0,0,0,,can't pir8 my swagger
+Dialogue: 0,0:01:27.11,0:01:28.50,Lyric,,0,0,0,,Reppin' my seniority
+Dialogue: 0,0:01:28.50,0:01:29.76,Lyric,,0,0,0,,top, highest priority
+Dialogue: 0,0:01:29.76,0:01:30.52,Lyric,,0,0,0,,Can't `su` me,
+Dialogue: 0,0:01:30.62,0:01:31.46,Lyric,,0,0,0,,I'm setuid
+Dialogue: 0,0:01:31.46,0:01:32.34,Lyric,,0,0,0,,I won't ping back,
+Dialogue: 0,0:01:32.34,0:01:33.36,Lyric,,0,0,0,,I'll just ack
+Dialogue: 0,0:01:33.36,0:01:33.72,Lyric,,0,0,0,,Your request
+Dialogue: 0,0:01:33.72,0:01:34.16,Lyric,,0,0,0,,at rest
+Dialogue: 0,0:01:34.16,0:01:34.90,Lyric,,0,0,0,,'cause I'm the best
+Dialogue: 0,0:01:34.90,0:01:36.28,Lyric,,0,0,0,,I'm a sinner, I syn/ack,
+Dialogue: 0,0:01:36.44,0:01:37.14,Lyric,,0,0,0,,the stack winner,
+Dialogue: 0,0:01:37.30,0:01:37.60,Lyric,,0,0,0,,an expert
+Dialogue: 0,0:01:37.60,0:01:38.78,Lyric,,0,0,0,,You a beginner.
+Dialogue: 0,0:01:38.82,0:01:40.54,Lyric,,0,0,0,,Wrote my first code in a Telnet session
+Dialogue: 0,0:01:40.54,0:01:42.94,Lyric,,0,0,0,,You in a browser asking LLM questions
+Dialogue: 0,0:01:42.94,0:01:45.66,Lyric,,0,0,0,,My systems uptime longer than your whole career
+Dialogue: 0,0:01:45.66,0:01:47.48,Lyric,,0,0,0,,You sweat downtime, I drink beer
+Dialogue: 0,0:01:47.48,0:01:49.22,Lyric,,0,0,0,,Your lame future becoming clearer
+Dialogue: 0,0:01:49.22,0:01:50.66,Lyric,,0,0,0,,Backup - an old rsync mirror
+Dialogue: 0,0:01:50.66,0:01:51.68,Lyric,,0,0,0,,What time it is?
+Dialogue: 0,0:01:51.74,0:01:52.70,Lyric,,0,0,0,,Say that in UTC
+Dialogue: 0,0:01:52.70,0:01:53.70,Lyric,,0,0,0,,Restart your job,
+Dialogue: 0,0:01:53.92,0:01:54.56,Lyric,,0,0,0,,I'm automatically
+Dialogue: 0,0:01:54.56,0:01:55.72,Lyric,,0,0,0,,I'm too bright
+Dialogue: 0,0:01:55.72,0:01:56.80,Lyric,,0,0,0,,syntax highlight
+Dialogue: 0,0:01:56.80,0:01:57.82,Lyric,,0,0,0,,SIGTERM, goodnight
+Dialogue: 0,0:01:57.82,0:01:58.70,Lyric,,0,0,0,,my SIGKILL
+Dialogue: 0,0:01:58.70,0:01:59.44,Lyric,,0,0,0,,you can't fight
+Dialogue: 0,0:01:59.44,0:02:00.28,Lyric,,0,0,0,,exit(0)
+Dialogue: 0,0:02:00.28,0:02:01.84,Lyric,,0,0,0,,justified every byte I write
+Dialogue: 0,0:02:01.84,0:02:03.30,Lyric,,0,0,0,,kernel sing at ring 0,
+Dialogue: 0,0:02:03.60,0:02:04.30,Lyric,,0,0,0,,like RAID you redundant
+Dialogue: 0,0:02:04.30,0:02:05.60,Lyric,,0,0,0,,my skills are abundant
+Dialogue: 0,0:02:05.60,0:02:07.42,Lyric,,0,0,0,,Like Windows, you unstable
+Dialogue: 0,0:02:07.42,0:02:09.44,Lyric,,0,0,0,,What I do, you ain't able
+Dialogue: 0,0:02:09.44,0:02:11.22,Lyric,,0,0,0,,Single disk, you high risk
+Dialogue: 0,0:02:11.22,0:02:13.02,Lyric,,0,0,0,,I'm immutable, dutiful, and beautiful
+Dialogue: 0,0:02:13.02,0:02:16.71,Lyric,,0,0,0,,my data, I never lose,
+Dialogue: 0,0:02:16.71,0:02:19.80,Lyric,,0,0,0,,musical rollback, rewrite
+Dialogue: 0,0:02:19.80,0:02:22.86,Lyric,,0,0,0,,Fork bomb, reuse
+Dialogue: 0,0:02:38.00,0:02:40.48,Lyric,,0,0,0,,DROP your TABLE,
+Dialogue: 0,0:02:40.48,0:02:40.48,Lyric,,0,0,0,,disable
+Dialogue: 0,0:02:40.48,0:02:40.68,Lyric,,0,0,0,,flow control
+Dialogue: 0,0:02:40.48,0:02:41.54,Lyric,,0,0,0,,XON, XOFF,
+Dialogue: 0,0:02:41.54,0:02:43.20,Lyric,,0,0,0,,in ELF or COFF,
+Dialogue: 0,0:02:43.20,0:02:44.22,Lyric,,0,0,0,,xterm X'd out.
+Dialogue: 0,0:02:44.28,0:02:44.84,Lyric,,0,0,0,,Not pwning,
+Dialogue: 0,0:02:44.92,0:02:45.27,Lyric,,0,0,0,,just a pawn,
+Dialogue: 0,0:02:45.36,0:02:45.82,Lyric,,0,0,0,,already gone -
+Dialogue: 0,0:02:45.82,0:02:46.64,Lyric,,0,0,0,,a null route,
+Dialogue: 0,0:02:46.76,0:02:47.26,Lyric,,0,0,0,,logged out,
+Dialogue: 0,0:02:47.30,0:02:47.64,Lyric,,0,0,0,,/dev/nulled
+Dialogue: 0,0:02:47.64,0:02:48.44,Lyric,,0,0,0,,ya been culled
+Dialogue: 0,0:02:48.44,0:02:49.06,Lyric,,0,0,0,,on UDP
+Dialogue: 0,0:02:49.06,0:02:49.88,Lyric,,0,0,0,,IP on everything
+Dialogue: 0,0:02:49.88,0:02:50.56,Lyric,,0,0,0,,like you,
+Dialogue: 0,0:02:50.56,0:02:51.12,Lyric,,0,0,0,,kernel panic.
+Dialogue: 10,0:02:50.56,0:02:51.27,Accent,,0,0,0,,{\an5\c&H0000FF&\t(0,200,\fscx130\fscy130)\t(200,400,\fscx100\fscy100)\fad(40,80)}kernel panic.
+Dialogue: 0,0:02:51.12,0:02:52.04,Lyric,,0,0,0,,I'm not Satanic,
+Dialogue: 0,0:02:52.10,0:02:52.40,Lyric,,0,0,0,,but a daemon -
+Dialogue: 0,0:02:52.40,0:02:53.22,Lyric,,0,0,0,,always on.
+Dialogue: 0,0:02:53.22,0:02:54.37,Lyric,,0,0,0,,You gone, did you hear?
+Dialogue: 0,0:02:54.40,0:02:55.26,Lyric,,0,0,0,,I know you phear
+Dialogue: 0,0:02:55.26,0:02:56.50,Lyric,,0,0,0,,my TCP.
+Dialogue: 0,0:02:56.66,0:02:57.86,Lyric,,0,0,0,,On irc? #hack
+Dialogue: 0,0:02:57.86,0:02:59.14,Lyric,,0,0,0,,while you on Slack or Discord,
+Dialogue: 0,0:02:59.42,0:02:59.96,Lyric,,0,0,0,,you edgelord
+Dialogue: 0,0:02:59.96,0:03:01.18,Lyric,,0,0,0,,umbilical Cat5
+Dialogue: 0,0:03:01.18,0:03:02.10,Lyric,,0,0,0,,I cut your cord
+Dialogue: 0,0:03:02.10,0:03:02.74,Lyric,,0,0,0,,now you wireless
+Dialogue: 0,0:03:02.74,0:03:03.80,Lyric,,0,0,0,,and I'm tireless
+Dialogue: 0,0:03:03.80,0:03:04.62,Lyric,,0,0,0,,coding for days
+Dialogue: 0,0:03:04.62,0:03:05.32,Lyric,,0,0,0,,on three-phase
+Dialogue: 0,0:03:05.32,0:03:06.04,Lyric,,0,0,0,,and DC
+Dialogue: 0,0:03:06.04,0:03:06.76,Lyric,,0,0,0,,Like UDP
+Dialogue: 0,0:03:06.76,0:03:07.60,Lyric,,0,0,0,,you unreliable,
+Dialogue: 0,0:03:07.84,0:03:08.46,Lyric,,0,0,0,,it's undeniable
+Dialogue: 0,0:03:08.46,0:03:09.62,Lyric,,0,0,0,,my checksums verifiable
+Dialogue: 0,0:03:09.62,0:03:11.30,Lyric,,0,0,0,,$2^10 for two hours,
+Dialogue: 0,0:03:11.36,0:03:12.05,Lyric,,0,0,0,,my root powers.
+Dialogue: 0,0:03:12.26,0:03:12.90,Lyric,,0,0,0,,your beige towers
+Dialogue: 0,0:03:12.90,0:03:13.50,Lyric,,0,0,0,,of shame
+Dialogue: 0,0:03:13.50,0:03:14.58,Lyric,,0,0,0,,while you game
+Dialogue: 0,0:03:14.58,0:03:15.24,Lyric,,0,0,0,,I work
+Dialogue: 0,0:03:15.24,0:03:16.24,Lyric,,0,0,0,,you mechanical Turk
+Dialogue: 0,0:03:16.24,0:03:17.40,Lyric,,0,0,0,,you barely earning.
+Dialogue: 0,0:03:17.40,0:03:19.32,Lyric,,0,0,0,,I got ultra-wide SCSI disks still turning
+Dialogue: 0,0:03:19.32,0:03:20.84,Lyric,,0,0,0,,15,000 RPM.
+Dialogue: 0,0:03:20.84,0:03:22.52,Lyric,,0,0,0,,Nah son I build that from source,
+Dialogue: 0,0:03:22.74,0:03:22.92,Lyric,,0,0,0,,Of course
+Dialogue: 0,0:03:22.92,0:03:23.40,Lyric,,0,0,0,,you're confused
+Dialogue: 0,0:03:23.40,0:03:25.10,Lyric,,0,0,0,,without that mouse that you use.
+Dialogue: 0,0:03:25.10,0:03:25.88,Lyric,,0,0,0,,My keyboard's loud
+Dialogue: 0,0:03:25.88,0:03:26.66,Lyric,,0,0,0,,been in the cloud
+Dialogue: 0,0:03:26.66,0:03:27.90,Lyric,,0,0,0,,since before it had a name
+Dialogue: 0,0:03:27.90,0:03:29.64,Lyric,,0,0,0,,netcat and Doom the only game
+Dialogue: 0,0:03:29.64,0:03:31.42,Lyric,,0,0,0,,you lame mainframe
+Dialogue: 0,0:03:31.42,0:03:36.24,Lyric,,0,0,0,,I got a PDP that runs VAX, VMS or RSTS.
+Dialogue: 0,0:03:36.24,0:03:36.38,Lyric,,0,0,0,,RST your session;
+Dialogue: 0,0:03:36.38,0:03:37.62,Lyric,,0,0,0,,DDOS your life, son
+Dialogue: 0,0:03:37.62,0:03:39.12,Lyric,,0,0,0,,and fsck your wife, done.
+Dialogue: 0,0:03:39.12,0:03:39.72,Lyric,,0,0,0,,yeah it's terminal
+Dialogue: 0,0:03:39.72,0:03:41.14,Lyric,,0,0,0,,A little German'll...
+Dialogue: 0,0:03:41.20,0:03:41.50,Lyric,,0,0,0,,Look:
+Dialogue: 0,0:03:41.50,0:03:43.26,Lyric,,0,0,0,,she be with Hans Reiser
+Dialogue: 0,0:03:43.26,0:03:44.82,Lyric,,0,0,0,,as in FS
+Dialogue: 0,0:03:44.94,0:03:45.58,Lyric,,0,0,0,,from in DOS
+Dialogue: 0,0:03:45.98,0:03:46.42,Lyric,,0,0,0,,she FAT
+Dialogue: 0,0:03:46.42,0:03:59.02,Lyric,,0,0,0,,like my best synthesizer
+Dialogue: 0,0:03:59.02,0:03:59.36,Lyric,,0,0,0,,kill -TERM
+Dialogue: 0,0:03:59.36,0:04:00.06,Lyric,,0,0,0,,E_NOPERM
+Dialogue: 0,0:04:00.06,0:04:00.80,Lyric,,0,0,0,,not your fault
+Dialogue: 0,0:04:00.80,0:04:02.46,Lyric,,0,0,0,,you segfault, "yo, ops!?"
+Dialogue: 0,0:04:02.46,0:04:03.54,Lyric,,0,0,0,,nah, /bk'd for life
+Dialogue: 0,0:04:03.54,0:04:05.20,Lyric,,0,0,0,,no @ for your handle
+Dialogue: 0,0:04:05.20,0:04:06.49,Lyric,,0,0,0,,Resign and light a candle,
+Dialogue: 0,0:04:06.68,0:04:07.50,Lyric,,0,0,0,,FU U DIE.
+Dialogue: 0,0:04:07.50,0:04:08.58,Lyric,,0,0,0,,Say goodbye
+Dialogue: 0,0:04:08.58,0:04:09.80,Lyric,,0,0,0,,to that TT-
+Dialogue: 0,0:04:09.80,0:04:11.16,Lyric,,0,0,0,,Y you running Windows?
+Dialogue: 0,0:04:11.26,0:04:12.36,Lyric,,0,0,0,,My condolences, fam
+Dialogue: 0,0:04:12.36,0:04:14.64,Lyric,,0,0,0,,Reboot twice just to fit it in RAM
+Dialogue: 0,0:04:14.64,0:04:17.74,Lyric,,0,0,0,,BSOD? yeah: bitch, stop or die!
+Dialogue: 0,0:04:17.76,0:04:18.80,Lyric,,0,0,0,,I run a headless slackware
+Dialogue: 0,0:04:18.80,0:04:19.96,Lyric,,0,0,0,,just to flex on the sky
+Dialogue: 0,0:04:19.96,0:04:20.64,Lyric,,0,0,0,,git pull
+Dialogue: 0,0:04:20.64,0:04:21.22,Lyric,,0,0,0,,you a fool
+Dialogue: 0,0:04:21.22,0:04:22.20,Lyric,,0,0,0,,every merge commit
+Dialogue: 0,0:04:22.20,0:04:23.60,Lyric,,0,0,0,,makes someone on your team quit
+Dialogue: 0,0:04:23.60,0:04:25.08,Lyric,,0,0,0,,Yo, I'm a SIGKILL assassin
+Dialogue: 0,0:04:25.08,0:04:26.00,Lyric,,0,0,0,,you on mute
+Dialogue: 0,0:04:26.00,0:04:27.02,Lyric,,0,0,0,,your password's cute
+Dialogue: 0,0:04:27.02,0:04:28.22,Lyric,,0,0,0,,My alias is root;
+Dialogue: 0,0:04:28.22,0:04:29.34,Lyric,,0,0,0,,my command absolute.
+Dialogue: 0,0:04:29.70,0:04:30.00,Lyric,,0,0,0,,I execute
+Dialogue: 0,0:04:30.00,0:04:31.44,Lyric,,0,0,0,,while you soft reboot,
+Dialogue: 0,0:04:31.50,0:04:32.32,Lyric,,0,0,0,,your buffer overflowing
+Dialogue: 0,0:04:32.32,0:04:33.50,Lyric,,0,0,0,,and I'm still going,
+Dialogue: 0,0:04:33.54,0:04:34.46,Lyric,,0,0,0,,my stack's protected
+Dialogue: 0,0:04:34.46,0:04:35.68,Lyric,,0,0,0,,I chown the throne,
+Dialogue: 0,0:04:35.68,0:04:36.80,Lyric,,0,0,0,,now your shell rejected
+Dialogue: 0,0:04:36.80,0:04:38.30,Lyric,,0,0,0,,Trying to fork, you getting SIGSTOP
+Dialogue: 0,0:04:38.30,0:04:39.18,Lyric,,0,0,0,,Nothing left,
+Dialogue: 0,0:04:39.18,0:04:40.44,Lyric,,0,0,0,,you got EOF
+Dialogue: 0,0:04:40.44,0:04:43.32,Lyric,,0,0,0,,kill, nice, hangup, shutdown,
+Dialogue: 0,0:04:43.42,0:04:44.28,Lyric,,0,0,0,,trap, abort,
+Dialogue: 0,0:04:44.44,0:04:44.72,Lyric,,0,0,0,,break,
+Dialogue: 0,0:04:44.98,0:04:45.76,Lyric,,0,0,0,,exec kill!
