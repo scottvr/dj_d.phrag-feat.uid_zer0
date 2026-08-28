@@ -1,6 +1,6 @@
 # "El User" - DJ D.phrag feat. UID Zer0
 
-This document might more accuraately be named LYRICAL_EXPLANATION.md,
+This document might more accurately be named LYRICAL_EXPLANATION.md,
 but that name doesn't sound as cool, especially from the diss track
 battle raapper persona. In the lyrics "UID Zer0" is referred to as "author",
 and "luser" (El User) is the "listener"
