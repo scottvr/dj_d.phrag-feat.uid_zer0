@@ -13,7 +13,7 @@ UID (user id) 0 is reserved for `root`, the superuser, in UNIX and Unix-like (Li
 So it's our introduction, in hip hop style, to say I am the "superuser".
 
 > in /etc/shadow i'll make it clear 
-/etc/shadow was an improvement over earlier Unix password storage schemes where `/etc/passwd1 contained  
+/etc/shadow was an improvement over earlier Unix password storage schemes where `/etc/passwd contained  
 local userid, group, home directory and GECOS fiield information as well as the actual crypt()ed password value. On shadowed password systems the crypted value was moved to the readable-by-root-only file `/etc/shadow`, while the mostly-not-sensitive fields mentioned above remained in the world-readable `/etc/passwd` file. It's another allusion to me being the super user since I have the ability to make something clear in the file `/etc/shadow` (presumably by modifying) it`
 
 > (oh) you still sudo? 
