@@ -35,6 +35,9 @@ placement/colour/motion lives in `effects.yaml` so it survives regeneration.
 
 ## Notes
 
+There is of course no reason for anyone other than myself to want to run voxaline with these lyrics; these configs are stored
+here for safe-keeping and for usa as reference for anyone who may want to run it. That said, if you are me or that anyone, note:  
+
 - The `audio:`/`video:` paths inside `lyrics.yaml` point at voxaline's local
   test fixtures, not this repo's media — they matter only if you re-run
   `align.py`/`render.sh`. Point them at `../El_User.wav` / the video as needed.
